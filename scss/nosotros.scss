@@ -1,10 +1,16 @@
+$color-background: #f7f7f7;
+$color-title: #0B4E51;
+$color-subtitle: #0C575A;
+$color-primary: #1e6a6a;
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 body{
-    background-color: #f7f7f7;
+    background-color: $color-background;
     font-family: "Open Sans", sans-serif;
 }
 header{
@@ -15,7 +21,7 @@ header{
 
 .title{
     padding-top: 7rem !important;
-    color: #0B4E51 ;
+    color: $color-title ;
     padding: 1rem;
     /* width: 400px; */
     margin: 0 auto;
@@ -26,7 +32,7 @@ header{
 
 }
 .subtitle{
-    color: #0C575A ;
+    color: $color-subtitle ;
     text-align: center;
     font-style: oblique;
     font-weight: 400;
@@ -48,7 +54,7 @@ ul{
 }
 
 .subtcolor{
-    color: #0C575A ;
+    color: $color-subtitle;
     line-height: 1.5;
     text-align: center;
     font-weight: 400;
@@ -206,6 +212,15 @@ footer h3{
     align-items: center;
     justify-content: center;
     margin: 0 auto;
+    width: fit-content;
+    .link-instagram{
+        text-decoration: none;
+        color: $color-subtitle;
+    }
+    &:hover{
+        cursor: pointer;
+
+    }
   }
 
   .profile-img{
@@ -214,7 +229,12 @@ footer h3{
     width: 200px;
     height: 200px;
     object-fit: cover;
-    border-radius: 50%;
+    border-radius: 45%;
+    &:hover{
+        border: $color-subtitle 2px solid;
+        transition: 150ms;
+        border-radius: 50%;
+    }
   }
 
   .profile-description{

@@ -8,6 +8,10 @@ body {
   background-color: #f7f7f7;
   font-family: "Open Sans", sans-serif;
 }
+body header {
+  position: relative;
+  z-index: 99;
+}
 body .menu {
   position: fixed !important;
   top: 0px !important;
@@ -103,10 +107,7 @@ footer {
   padding: 20px;
   margin-bottom: 0px;
   background: #1b9ba0;
-  background: linear-gradient(90deg, #1b9ba0 0%, #1e6a6a 35%);
-}
-footer .link-wsapp {
-  text-align: center;
+  background: linear-gradient(to top, #1b9ba0 0%, #1e6a6a 35%);
 }
 footer h3 {
   text-align: center;
@@ -115,16 +116,20 @@ footer h3 {
 footer .container-maps {
   display: flex;
   justify-content: flex-end;
+  margin-top: 20px;
 }
 footer .link-wsapp {
   text-decoration: none;
   color: white;
-  text-align: left;
 }
 footer .wsp-contact {
   text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 25px;
 }
-footer .logos--whatsapp-icon {
+footer .wsp-contact .logos--whatsapp-icon {
   display: inline-block;
   width: 35px;
   height: 35px;

@@ -57,6 +57,8 @@ $color-primary: #1e6a6a;
             font-weight: 600;
             font-size: 42px;
             font-style: normal;
+
+           
         
         }
         .subtitle{
@@ -81,6 +83,7 @@ $color-primary: #1e6a6a;
         .p-carousel{
             text-align: center;
             padding: 0px;
+            color: $color-primary;
         }
 
         .carousel-container{
@@ -91,6 +94,8 @@ $color-primary: #1e6a6a;
         .carousel-img{
                     width: 100%;
                   }
+    
+
     }
     
     footer{
@@ -110,6 +115,8 @@ $color-primary: #1e6a6a;
         .container-maps{
             display: flex;
             justify-content: flex-end;
+            margin-top: 20px;
+            
         }
         .link-wsapp{
             text-decoration: none;
@@ -137,6 +144,34 @@ $color-primary: #1e6a6a;
         
         
     }
+
+    @media only screen and (max-width: 600px) {
+        .logoTratamientos{
+            flex-direction: column;
+        }
+        .container-maps{
+         width: 300px;
+     }
+     }
+     
+     @media only screen and (max-width: 768px) {
+         .nav-mobile{
+             display: hidden;
+         }
+         section{
+             max-width: 95vw;
+         }
+         .carousel-container{
+             width: 90vw;
+           }
+     }
+     
+     
+     @media only screen and (min-width: 768px) {
+         .nav-mobile{
+             display: hidden;
+         }
+     }
 
 
     

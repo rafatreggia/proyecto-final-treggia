@@ -148,12 +148,12 @@ footer .container-maps {
   display: flex;
   justify-content: flex-end;
   margin-top: 20px;
-  width: fit-content;
 }
 @media (max-width: 600px) {
   footer .container-maps {
     margin: 0 auto;
     margin-top: 20px;
+    width: fit-content;
   }
 }
 footer .link-wsapp {

@@ -1,3 +1,8 @@
+$color-background: #f7f7f7;
+$color-title: #0B4E51;
+$color-subtitle: #0C575A;
+$color-primary: #1e6a6a;
+
 *{
     margin: 0;
     padding: 0;
@@ -68,7 +73,7 @@ footer{
     padding: 20px;
     margin-bottom: 0px;
     background: #1b9ba0;
-    background: linear-gradient(90deg, #1b9ba0 0%, #1e6a6a 35%);
+    background: linear-gradient(to top, #1b9ba0 0%, $color-primary 35%);
 
   
     

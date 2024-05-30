@@ -59,7 +59,7 @@ footer {
   padding: 20px;
   margin-bottom: 0px;
   background: #1b9ba0;
-  background: linear-gradient(90deg, #1b9ba0 0%, #1e6a6a 35%);
+  background: linear-gradient(to top, #1b9ba0 0%, #1e6a6a 35%);
 }
 footer h3 {
   text-align: center;

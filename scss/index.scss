@@ -166,10 +166,10 @@ footer{
         display: flex;
         justify-content: flex-end;
         margin-top: 20px;
-        width: fit-content;
         @include for-phone{
             margin: 0 auto;
             margin-top: 20px;
+            width: fit-content;
         }
         
     }

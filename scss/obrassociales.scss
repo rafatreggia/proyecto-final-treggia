@@ -48,9 +48,7 @@ header div{
     width: 50px;
 }
 
-ul{
-    list-style-type: none;
-}
+
 
 .subtcolor{
     color: #0C575A ;
@@ -62,10 +60,7 @@ ul{
     margin-top: 3rem;
 }
 
-p{
-    padding: 20px;
-    line-height: 1.5;
-}
+
 
 footer{
     position: relative;
@@ -98,6 +93,8 @@ footer{
         align-items: center;
         justify-content: center;
         margin-top: 25px;
+        width: fit-content;
+        margin: 0 auto;
         
         .logos--whatsapp-icon {
             display: inline-block;
@@ -123,29 +120,8 @@ footer{
 }
 
 
-
-.logoTratamientos{
-    border: 1px solid #1b9ba0;
-    border-radius: 8px;
-    margin: auto;
-    line-height: 1.5;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-
-}
-
 .invertido{
     flex-direction: row-reverse;
-}
-
-.imgmain{
-    border-radius: 4px;
-    width: 325px;
-    height: 250px;
-    margin: 1rem;
-    object-fit: cover;
 }
 
 .parrafo{

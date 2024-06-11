@@ -161,10 +161,11 @@ footer{
     h3{
         text-align: center;
         color: white;
+        font-size: 1rem;
     }
     .container-maps{
         display: flex;
-        justify-content: flex-end;
+        justify-content: center;
         margin-top: 20px;
         @include for-phone{
             margin: 0 auto;
@@ -176,6 +177,7 @@ footer{
     .link-wsapp{
         text-decoration: none;
         color: white;
+        font-size: 20px;
        
     }
     .wsp-contact{

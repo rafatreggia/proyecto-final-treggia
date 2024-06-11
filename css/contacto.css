@@ -83,15 +83,24 @@ footer {
 footer h3 {
   text-align: center;
   color: white;
+  font-size: 1rem;
 }
 footer .container-maps {
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   margin-top: 20px;
+}
+@media (max-width: 600px) {
+  footer .container-maps {
+    margin: 0 auto;
+    margin-top: 20px;
+    width: fit-content;
+  }
 }
 footer .link-wsapp {
   text-decoration: none;
   color: white;
+  font-size: 20px;
 }
 footer .wsp-contact {
   text-decoration: none;

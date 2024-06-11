@@ -3,6 +3,12 @@ $color-title: #0B4E51;
 $color-subtitle: #0C575A;
 $color-primary: #1e6a6a;
 
+@mixin for-phone {
+    @media (max-width: 600px ) {
+        @content;
+    }
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -85,16 +91,23 @@ footer{
     h3{
         text-align: center;
         color: white;
+        font-size: 1rem;
     }
     .container-maps{
         display: flex;
-        justify-content: flex-end;
+        justify-content: center;
         margin-top: 20px;
+        @include for-phone{
+            margin: 0 auto;
+            margin-top: 20px;
+            width: fit-content;
+        }
         
     }
     .link-wsapp{
         text-decoration: none;
         color: white;
+        font-size: 20px;
        
     }
     .wsp-contact{

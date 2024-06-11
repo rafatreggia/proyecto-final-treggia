@@ -3,6 +3,12 @@ $color-title: #0B4E51;
 $color-subtitle: #0C575A;
 $color-primary: #1e6a6a;
 
+@mixin for-phone {
+    @media (max-width: 600px ) {
+        @content;
+    }
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -43,7 +49,18 @@ body{
             font-weight: 600 !important;
             color: whitesmoke !important;
         }
+        
     }
+    .contenido-nosotros{
+        width: 50%;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        font-size: 18px;
+    }
+
 
 .title{
     padding-top: 7rem !important;
@@ -92,14 +109,22 @@ footer{
     h3{
         text-align: center;
         color: white;
+        font-size: 1rem;
     }
     .container-maps{
         display: flex;
-        justify-content: flex-end;
+        justify-content: center;
+        margin-top: 20px;
+        @include for-phone{
+            margin: 0 auto;
+            margin-top: 20px;
+            width: fit-content;
+        }
     }
     .link-wsapp{
         text-decoration: none;
         color: white;
+        font-size: 20px;
        
     }
     .wsp-contact{
@@ -170,9 +195,9 @@ footer{
   .profile-description{
     width: 400px;
     max-width: 90vw;
-    padding-top: 0rem;
+    padding: 0;
     text-align: center;
-    margin-bottom: 2rem;
+    margin-bottom: 0;
   }
 
 .invertido{

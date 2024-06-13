@@ -53,6 +53,11 @@ body .title {
   font-size: 42px;
   font-style: normal;
 }
+@media (max-width: 600px) {
+  body .title {
+    font-size: 28px;
+  }
+}
 body .subtitle {
   color: #0C575A;
   text-align: center;
@@ -60,6 +65,11 @@ body .subtitle {
   font-weight: 400;
   font-size: 24px;
   padding-bottom: 1rem;
+}
+@media (max-width: 600px) {
+  body .subtitle {
+    font-size: 18px;
+  }
 }
 body .subtcolor {
   color: #0C575A;

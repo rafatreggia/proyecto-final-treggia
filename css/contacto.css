@@ -35,12 +35,16 @@ body .title {
   padding-top: 7rem !important;
   color: #0B4E51;
   padding: 1rem;
-  /* width: 400px; */
   margin: 0 auto;
   text-align: center;
   font-weight: 600;
   font-size: 42px;
   font-style: normal;
+}
+@media (max-width: 600px) {
+  body .title {
+    font-size: 28px;
+  }
 }
 body .subtitle {
   color: #0C575A;
@@ -49,6 +53,11 @@ body .subtitle {
   font-weight: 400;
   font-size: 24px;
   padding-bottom: 1rem;
+}
+@media (max-width: 600px) {
+  body .subtitle {
+    font-size: 18px;
+  }
 }
 body .subtcolor {
   color: #0C575A;

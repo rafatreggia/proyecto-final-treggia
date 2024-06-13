@@ -71,6 +71,9 @@ body{
     font-weight: 600;
     font-size: 42px;
     font-style: normal;
+    @include for-phone{
+        font-size: 28px;
+    }
 
 }
 .subtitle{
@@ -80,6 +83,9 @@ body{
     font-weight: 400;
     font-size: 24px;
     padding-bottom: 1rem;
+    @include for-phone{
+        font-size: 18px;
+    }
     
 }
 .subtcolor{

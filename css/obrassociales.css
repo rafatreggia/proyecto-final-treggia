@@ -17,12 +17,16 @@ body header {
   padding-top: 7rem !important;
   color: #0B4E51;
   padding: 1rem;
-  /* width: 400px; */
   margin: 0 auto;
   font-size: 42px;
   text-align: center;
   font-weight: 600;
   font-style: normal;
+}
+@media (max-width: 600px) {
+  .title {
+    font-size: 28px;
+  }
 }
 
 .subtitle {
@@ -32,6 +36,11 @@ body header {
   font-weight: 400;
   font-size: 24px;
   padding-bottom: 1rem;
+}
+@media (max-width: 600px) {
+  .subtitle {
+    font-size: 18px;
+  }
 }
 
 header div {
@@ -176,6 +185,16 @@ footer .wsp-contact .logos--whatsapp-icon {
   justify-content: flex-end;
   margin: 10px auto;
   list-style: none;
+}
+
+.parrafo {
+  width: 50%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  font-size: 18px;
 }
 
 .profile {

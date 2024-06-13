@@ -31,16 +31,16 @@ body{
     padding-top: 7rem !important;
     color: $color-title ;
     padding: 1rem;
-    /* width: 400px; */
     margin: 0 auto;
     text-align: center;
     font-weight: 600;
     font-size: 42px;
     font-style: normal;
-
-
-
+    @include for-phone{
+        font-size: 28px;
+    }
 }
+
 .subtitle{
     color: $color-subtitle ;
     text-align: center;
@@ -48,8 +48,11 @@ body{
     font-weight: 400;
     font-size: 24px;
     padding-bottom: 1rem;
-    
+    @include for-phone{
+        font-size: 18px;
+    }   
 }
+
 header div{
     text-align: left;
 }
